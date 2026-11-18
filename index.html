@@ -1,26 +1,31 @@
+<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 
-<title>Pierre-Élie Larré's website</title>
-<meta charset="UTF-8">
-<meta name="author" content="Pierre-Élie Larré">
-<meta name="description" content="Pierre-Élie Larré - CNRS researcher in theoretical physics - LPTMS, CNRS & Université Paris-Saclay, Orsay, France - Quantum fluids, Superfluid transport, Nonlinear waves, Quench dynamics, Analog gravity">
-<!--<meta name="viewport" content="width=device-width">-->
+<title>
+Pierre-Élie Larré
+</title>
+
+<meta name="description" content="LPTMS, CNRS &amp; Université Paris-Saclay, Orsay, France | Quantum fluids - Superfluid transport - Nonlinear waves - Quench dynamics - Analog gravity">
+
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" rel="stylesheet" type="text/css">
+
+<meta charset="UTF-8">
 
 <style>
 
 body{
 font-family:"Open Sans";
-font-size:20;
+font-size:20px;
 margin-left:10%;
 margin-right:10%;
 margin-top:2.5%;
-margin-bottom:20%
+margin-bottom:20%;
 }
 
-ul{
+.menu ul{
 background-color:#f4f6f6;
 list-style-type:none;
 margin:0;
@@ -29,7 +34,7 @@ position:absolute;
 width:200px;
 }
 
-li a{
+.menu li a{
 border-left:1px solid #3498db;
 border-right:1px solid #3498db;
 border-top:1px solid #3498db;
@@ -39,14 +44,16 @@ padding:10px;
 text-align:center;
 text-decoration:none;
 }
-li:last-child{border-bottom:1px solid #3498db}
+.menu li:last-child{
+border-bottom:1px solid #3498db;
+}
 
-li a:hover{
+.menu li a:hover{
 background-color:#d6eaf8;
 color:#3498db;
 }
 
-li a.active{
+.menu li a.active{
 background-color:#3498db;
 color:white;
 font-weight:bold;
@@ -54,7 +61,7 @@ font-weight:bold;
 
 a{
 color:#3498db;
-text-decoration:none
+text-decoration:none;
 }
 
 </style>
@@ -63,72 +70,89 @@ text-decoration:none
 
 <body>
 
-<img src="Bouille.png" style="float:right; width:200px">
+<img src="Bouille.png" style="float:right; width:125px;">
 
-<h1 style="margin-bottom:0">Pierre-Élie Larré</h1>
+<h1 style="margin:0;">
+Pierre-Élie Larré<!---->
+</h1>
 
-<h2 style="margin-top:5px; margin-bottom:40px">
-CNRS researcher in theoretical physics<br>
-<a href="https://www.lptms.universite-paris-saclay.fr/" target="_blank">LPTMS</a>, <a href="https://www.cnrs.fr/en" target="_blank">CNRS</a> & <a href="https://www.universite-paris-saclay.fr/en" target="_blank">Université Paris-Saclay</a>, Orsay, France<br>
+<h2 style="margin:0;">
+LPTMS, CNRS &amp; Université Paris-Saclay, Orsay, France<!---->
 </h2>
 
-<h3 style="margin-top:0">Quantum fluids &nbsp;&middot;&nbsp; Superfluid transport &nbsp;&middot;&nbsp; Nonlinear waves &nbsp;&middot;&nbsp; Quench dynamics &nbsp;&middot;&nbsp; Analog gravity</h3>
+<h3 style="margin-top:20px;">
+Quantum fluids &nbsp;&middot;&nbsp; Superfluid transport &nbsp;&middot;&nbsp; Nonlinear waves &nbsp;&middot;&nbsp; Quench dynamics &nbsp;&middot;&nbsp; Analog gravity<!---->
+</h3>
 
 <hr>
 
 <br><br>
 
-<p>
+<nav class="menu">
 <ul>
 <li><a href="https://pierre-elie-larre.github.io/" class="active">Home</a></li>
 <li><a href="https://pierre-elie-larre.github.io/publications.html">Publications</a></li>
-<li><a href="https://pierre-elie-larre.github.io/presentations.html">Presentations</a></li>
+<li><a href="https://pierre-elie-larre.github.io/talks.html">Talks</a></li>
 <li><a href="https://pierre-elie-larre.github.io/teaching.html">Teaching</a></li>
 <li><a href="CV.pdf" target="_blank">CV</a></li>
 </ul>
-</p>
+</nav>
 
-<div style="margin-left:275px">
+<div style="margin-left:275px;">
 
-<!--
--->
-
-<p style="margin:0; border-left:5px solid #e67e22; padding-left:20px">
-<b style="font-size:1.17em; color:#e67e22">News</b><br>
-<br>
-Proposition de stage de master 2 :<br>
-<a href="FluidesQuBinaires.pdf" target="_blank">Dynamique loin de l'équilibre dans des fluides quantiques à deux composantes</a><br>
-<br>
-</p>
-
-<br><br>
+<h2 style="margin-top:0;">
+Welcome!<!---->
+</h2>
 
 <p>
-<b>Address</b><br>
-<a href="https://www.google.com/maps/place/Physics+Laboratory+Th%C3%A9orique+And+Models+Statistiques+-+Umr8626/@48.7065808,2.1745221,17z/data=!3m1!4b1!4m6!3m5!1s0x47e5d6020eba701d:0x5946b7b0226fc0b6!8m2!3d48.7065773!4d2.177097!16s%2Fg%2F1tf6r28c?hl=en&entry=ttu&g_ep=EgoyMDI1MDEyNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+I am a <a href="https://www.cnrs.fr/en" target="_blank">CNRS</a> researcher at <a href="https://www.lptms.universite-paris-saclay.fr/" target="_blank">LPTMS</a>, part of <a href="https://www.universite-paris-saclay.fr/en" target="_blank">Université Paris-Saclay</a> in Orsay, France. As a theoretical physicist with a focus on experimental relevance, my research deals with:<!---->
+</p>
+
+<ul>
+<li><i>Quantum fluids:</i> Ultracold atomic gases, exciton-polariton condensates, and paraxial superfluids of light.</li>
+<li><i>Superfluid transport:</i> Frictionless flow, critical velocities, and dissipation mechanisms.</li>
+<li><i>Nonlinear waves:</i> Solitons, vortices, and shock waves in nonlinear dispersive media.</li>
+<li><i>Quench dynamics:</i> Nonequilibrium phenomena following sudden parameter changes.</li>
+<li><i>Analog gravity:</i> Simulation of Hawking radiation in tabletop laboratory experiments.</li>
+</ul>
+
+<p>
+Take a look around!<!---->
+</p>
+
+<br>
+
+<h2 style="margin-top:0;">
+Opportunities<!---->
+</h2>
+
+<p>
+A Master's internship position on <a href="FluidesQuBinaires.pdf" target="_blank">far-from-equilibrium dynamics in two-component quantum fluids</a> is currently open. If you are interested in theoretical quantum many-body physics, feel free to reach out by <a href="mailto:pierre-elie.larre@universite-paris-saclay.fr">email</a>.<!---->
+</p>
+
+<br>
+
+<h2 style="margin-top:0;">
+Contact<!---->
+</h2>
+
+<p>
+<a href="https://www.openstreetmap.org/node/6898149148" target="_blank">
 Laboratoire de physique théorique et modèles statistiques<br>
 Université Paris-Saclay<br>
 Bâtiment Pascal n° 530, rue André-Rivière<br>
 91405 Orsay Cedex<br>
 France<br>
 </a>
-Office L129<br>
+Office L129<!---->
 </p>
 
 <p>
-<b>Phone</b><br>
-+33 1 69 15 40 89<br>
+<a href="tel:+33169154089">+33 1 69 15 40 89</a>
 </p>
 
 <p>
-<b>Email</b><br>
-<a href="mailto:pierre-elie.larre@universite-paris-saclay.fr">pierre-elie.larre@universite-paris-saclay.fr</a><br>
-</p>
-
-<p>
-<b>Web</b><br>
-<a href="https://scholar.google.com/citations?user=KpQDmaAAAAAJ&hl=en" target="_blank">Google Scholar</a><br>
-<a href="https://orcid.org/0000-0002-8273-3333" target="_blank">ORCID</a>
+<a href="mailto:pierre-elie.larre@universite-paris-saclay.fr">pierre-elie.larre@universite-paris-saclay.fr</a>
 </p>
 
 </div>
